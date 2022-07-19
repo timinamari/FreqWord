@@ -14,7 +14,7 @@ namespace TestFreqWord
         [TestMethod]
         public void Test_1_CountWords()
         {
-            string[] words = { "test", "test", "test", "test" };
+            string[] words = { "test", "test", "test", "te st" };
             Assert.AreEqual(4, FreqWord.UniqueWord.CountWords(words, "test"));
         }
         
